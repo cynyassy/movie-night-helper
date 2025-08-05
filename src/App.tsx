@@ -5,7 +5,7 @@ import Results from "./pages/Results";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/movie-night-helper">
       <Routes>
         {/* Home Page */}
         <Route path="/" element={<Home />} />
